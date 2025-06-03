@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登陆页面</title>
+</head>
+
+<body>
+    <h1>登陆页面</h1>
+    <a href="/content.html">进入内容页面</a><br>
+    <a href="/a/b/c.html">测试404</a><br>
+    <a href="/redir">测试重定向</a><br>
+
+    <div>
+        <!-- 默认就是GET -->
+        <form action="/login" method="POST">
+            用户名: <input type="text" name="username" value="."><br>
+            密码: <input type="password" name="userpasswd" value=""><br>
+            <input type="submit" value="提交">
+        </form>
+    </div>
+
+</body>
+
+</html>
